@@ -10,6 +10,8 @@ namespace DelegatorStudent
     {
         static void Main(string[] args)
         {
+            Students students = new Students();
+            students.Add(new Student("a", 4.5));
         }
     }
 }
